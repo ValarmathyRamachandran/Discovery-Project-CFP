@@ -177,8 +177,9 @@ h4{
     float: right;
     line-height: 2rem;
     font-size: .9rem;
-    margin-right: 50px;
     text-decoration: none;
+    background-color: #161f1e;
+    width:100%;
 }
 .c-site-foot-menu__link{
     text-decoration: none;
@@ -195,6 +196,7 @@ h4{
 }
 li{
     margin-right: 50px;
+    list-style: none;
 }
 .c-site-foot__bottom p{
     margin-inline-start: -510px !important;
@@ -202,3 +204,12 @@ li{
     opacity: 0.75;
     color: hsla(0,0%,100%,.75);
 }
+.c-site-foot-menu__item{
+    margin-right: 20px;
+}
+.footer-content{
+    width: 46%;
+    float: right;
+    margin:0%;
+}
+
