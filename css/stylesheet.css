@@ -213,3 +213,28 @@ li{
     margin:0%;
 }
 
+@media screen and (max-width:2400px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        margin-top: 100px;
+    }
+    #header-nav-menu{
+        padding: 0px !important;
+        margin-right: 25px;
+    }
+    .menu-item{
+        display: none;
+    }
+    .header-content {
+        margin-left: 40px;
+    }
+    #logo-content{
+        margin-left: 40px;  
+    }
+    .ham{
+        margin-top: 40px;
+    }
+}
+
+
