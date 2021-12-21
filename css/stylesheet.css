@@ -1,5 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/25fb96b64c7477f11cef759f024ec97e?family=MessinaSansWeb+SemiBold);
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 * {
     box-sizing: border-box;
  }
@@ -31,14 +31,16 @@
         margin-left: 100px;
 }
 
-.column img {
+.world img {
         cursor: pointer;
         padding: 10px;
 }
 
 .header-content{
-        font-family: messina-sans;
+        font-family:sans-serif;
         color: white;
+        letter-spacing: 4px;
+        
 }
 
 body{
@@ -53,7 +55,7 @@ body{
     margin-left: 100px;
 }
 .world-title {
-    font-family: messina-sans;
+    font-family: sans-serif;
     font-size: .85rem;
     text-transform: uppercase;
     color: #fff;
@@ -73,7 +75,7 @@ body{
     padding: 8px;
     margin-right: 10px;
     text-decoration: none;
-    font-family: messina-sans;
+    font-family: sans-serif;
 }
 .menu-item:hover{
     text-decoration:underline;
@@ -105,7 +107,7 @@ body{
 }
 
 .world-title {
-    font-family: messina-sans;
+    font-family: sans-serif;
     font-size: .85rem;
     text-transform: uppercase;
     color: #fff;
@@ -143,3 +145,60 @@ p {
     margin-left: 11px;
 }
 
+.c-site-foot__title, .c-site-foot p {
+    color: hsla(0,0%,100%,.75);
+}
+.c-site-foot__title {
+    width: 100%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: .7rem;
+    margin-bottom: -1.00rem;
+    letter-spacing: -.01em;
+   
+}
+h4{
+    font-weight: 200;
+    margin-bottom: 0;
+    padding: 0;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 40px;
+    margin-inline-end: 0px;
+}
+.c-site-foot__nav {
+    display: flex;
+}
+.c-site-foot__menus {
+    display: flex;
+}
+.footer-section{
+    float: right;
+    line-height: 2rem;
+    font-size: .9rem;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.c-site-foot-menu__link{
+    text-decoration: none;
+    color: white;
+    font-family:sans-serif;
+}
+.c-site-foot-menu__link:hover{
+    text-decoration-line: underline;
+}
+.c-site-foot__bottom {
+    font-size: .75rem;
+    opacity: .75;
+    display:flex;
+}
+li{
+    margin-right: 50px;
+}
+.c-site-foot__bottom p{
+    margin-inline-start: -510px !important;
+    font-weight:100;
+    opacity: 0.75;
+    color: hsla(0,0%,100%,.75);
+}
