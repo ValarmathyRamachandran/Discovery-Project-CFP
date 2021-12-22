@@ -1,0 +1,52 @@
+.gallery-img-section {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.gallery{
+    margin-top:30%;
+    margin-bottom: 20%;
+}
+.gallery-images{
+    white-space: nowrap;
+    padding: 0;
+    margin: 0;
+    right: 0;
+    left: 0;
+}
+
+.gallery-image-content{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+.gallery-head{
+    background-image: url("../assets/Images/Gallery-Images/gallery-main-img.jpg");
+    width:100%;
+    height: 70%;
+    position: absolute;
+    top:0;
+    left:0;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .inner-gallery-heading{
+      font-weight: 300;
+      color: #fff;
+      font-size: 55px;
+      display: block;
+      font-family:system-ui;
+  }
+
+  h1{
+      padding-top: 140px;
+      margin-left: 110px;
+  }
+
+
+
+
