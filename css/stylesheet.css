@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/25fb96b64c7477f11cef759f024ec97e?family=MessinaSansWeb+SemiBold);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     box-sizing: border-box;
@@ -25,6 +25,8 @@
 #logo{
         float:left;
         fill:#FFFFFF;
+        margin-left: 84px;
+        margin-top: 42px;
 }
 
 .header-content{
@@ -37,7 +39,7 @@
 }
 
 .header-content{
-        font-family:sans-serif;
+        font-family: Roboto;
         color: white;
         letter-spacing: 4px;
         
@@ -55,7 +57,7 @@ body{
     margin-left: 100px;
 }
 .world-title {
-    font-family: sans-serif;
+    font-family: Roboto;
     font-size: .85rem;
     text-transform: uppercase;
     color: #fff;
@@ -75,17 +77,18 @@ body{
     padding: 8px;
     margin-right: 10px;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family:Roboto;
 }
 .menu-item:hover{
     text-decoration:underline;
 }
 
  /*Properties for Hamburger*/  
-.ham{   
+.ham-menu-icon{   
     padding: 0px;
     cursor: pointer;
     float: right;
+    margin-left: 16px;
     
 }  
 .bar1,.bar2{  
@@ -107,7 +110,7 @@ body{
 }
 
 .world-title {
-    font-family: sans-serif;
+    font-family: Roboto;
     font-size: .85rem;
     text-transform: uppercase;
     color: #fff;
@@ -145,12 +148,12 @@ p {
     margin-left: 11px;
 }
 
-.c-site-foot__title, .c-site-foot p {
+.footer-title, .footer p {
     color: hsla(0,0%,100%,.75);
 }
-.c-site-foot__title {
+.footer-title {
     width: 100%;
-    font-family: sans-serif;
+    font-family: Roboto;
     text-transform: uppercase;
     font-size: .7rem;
     margin-bottom: -1.00rem;
@@ -167,11 +170,14 @@ h4{
     margin-inline-start: 40px;
     margin-inline-end: 0px;
 }
-.c-site-foot__nav {
+.footer-nav {
     display: flex;
+    justify-content: space-evenly;
+    margin-top:20px;
 }
-.c-site-foot__menus {
+.footer-menus {
     display: flex;
+    margin-right: 60px;
 }
 .footer-section{
     float: right;
@@ -181,30 +187,36 @@ h4{
     background-color: #161f1e;
     width:100%;
 }
-.c-site-foot-menu__link{
+.footer-container{
+    margin: 0%;
+    width: 100%;
+}
+.footer-menu-link{
     text-decoration: none;
     color: white;
-    font-family:sans-serif;
+    font-family:Roboto;
 }
-.c-site-foot-menu__link:hover{
+.footer-menu-link:hover{
     text-decoration-line: underline;
 }
-.c-site-foot__bottom {
+.footer-bottom {
     font-size: .75rem;
     opacity: .75;
     display:flex;
+    width: 40%;
+    
 }
 li{
     margin-right: 50px;
     list-style: none;
 }
-.c-site-foot__bottom p{
+.footer-bottom p{
     margin-inline-start: -510px !important;
     font-weight:100;
     opacity: 0.75;
     color: hsla(0,0%,100%,.75);
 }
-.c-site-foot-menu__item{
+.footer-menu-item{
     margin-right: 20px;
 }
 .footer-content{
@@ -213,7 +225,7 @@ li{
     margin:0%;
 }
 
-@media screen and (max-width:2400px){
+@media (min-width:320px) and (max-width:815px){
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr ;
@@ -232,7 +244,7 @@ li{
     #logo-content{
         margin-left: 40px;  
     }
-    .ham{
+    .ham-menu-icon{
         margin-top: 40px;
     }
 }
