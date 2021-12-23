@@ -51,8 +51,29 @@
       width: 100%;
       margin: 0;
   }
-  
 
-
-
-
+  @media only screen and (max-width: 768px) {
+    .gallery-img-section {
+        display:grid;
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+    html,body{
+        width: 100%;
+    }
+    .gallery-image-content{
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        padding: 1rem 9.5rem;
+        white-space: nowrap;
+        
+    }
+    .gallery-images{
+        margin-top: 340px;
+    }
+    .gallery-head{
+        width: 130%;
+        text-align: left;
+    }
+}
