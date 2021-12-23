@@ -14,7 +14,7 @@ document.getElementById("header").innerHTML= `
             <span class="bar1"></span>  
             <span class="bar2"></span>  
             <span class="bar3"></span>  
-        </div> </a>
+        </div></a>
     </div>
 </nav>
 </div>`
