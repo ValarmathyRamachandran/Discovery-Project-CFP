@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&family=Luxurious+Roman&family=Nanum+Gothic&family=Poiret+One&family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+#home-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.header-section{
+    position: absolute;
+    top: 0;
+    background: transparent;
+    width: 100%;
+}
+.inner-heading{
+    display: inline-block;
+    position: relative;
+    font-size: 60px;
+    float:right;
+    color: white;
+    margin: 0;
+    font-family: Nanum Gothic;
+    letter-spacing: 0.5vh;
+    margin-top: 10vh;
+}
+
+sup{
+    font-size: 66px;
+    color: white;
+    margin: 0;
+    float:right;
+    letter-spacing: 3 vh;
+    font-family:Nanum Gothic;
+    opacity: .9;
+}

@@ -227,6 +227,7 @@ li{
 
 @media (min-width:320px) and (max-width:815px){
     .grid-container {
+
         display: grid;
         grid-template-columns: 1fr 1fr ;
         margin-top: 100px;
@@ -246,7 +247,7 @@ li{
     }
     .ham-menu-icon{
         margin-top: 40px;
-    }
+    }   
 }
 
 
