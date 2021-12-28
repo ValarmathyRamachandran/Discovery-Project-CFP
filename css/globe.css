@@ -1,0 +1,22 @@
+
+#home-section-4{
+            background-image: url("https://discoverylandco.com/static/globe-usa.jpg");
+            height: 210vh;
+            width: 100%;
+            z-index: 1;
+            position: absolute;
+            display: block;
+}
+.black-block{
+            background-color: black;
+            display: flex;
+            width: 80%;
+            float: right;
+            z-index: 2;
+            border: 5px solid black;
+            width: 420px;
+            height: 600px;
+            margin-top: 10vh;
+}
+
+
