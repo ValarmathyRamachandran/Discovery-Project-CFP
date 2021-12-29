@@ -78,6 +78,7 @@ body{
     margin-right: 10px;
     text-decoration: none;
     font-family:Roboto;
+    font-weight: 200;
 }
 .menu-item:hover{
     text-decoration:underline;

@@ -240,7 +240,7 @@ p{
   .centered1 {
     position: absolute;
     top: 46%;
-    left: 52%;;
+    left: 52%;
     font-size: 6vh;
     font-family: 'Courier New', Courier, monospace;
     transform: translate(-50%, -50%);
@@ -249,7 +249,7 @@ p{
   .centered2 {
     position: absolute;
     top: 46%;
-   
+    left: 82%;
     font-size: 6vh;
     font-family: 'Courier New', Courier, monospace;
     transform: translate(-50%, -50%);
