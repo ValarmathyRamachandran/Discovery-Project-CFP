@@ -57,7 +57,7 @@ document.getElementById("footer").innerHTML= `
       </nav>
     </div>
     
-    <div class="footer-bottom">
-    <p>© Discovery Land Company. All rights reserved.</p>
+    <div class="footer-bottom" >
+    <p style="margin-block-end: 0em;">© Discovery Land Company. All rights reserved.</p>
     </div>
 </div>`

@@ -1,0 +1,181 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+* {
+    box-sizing: border-box;
+}
+.dlc-background-img{
+    background-image:url("../assets/Images/AboutDLC/Mountain-background-img.jpg");
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.inner-heading{
+    margin-top: 26px;
+    color: white;
+    font-size: 4rem;
+    margin-block: 13vh !important;
+    padding-left: 42vh;
+    float: left;
+}
+.fa-arrow-alt-circle-down:before {
+    opacity: 0.8;
+    font-size: 12vh;
+    content: "\f358";
+    display: flex;
+    position: absolute;
+    justify-content: right;
+    margin-top: 65vh;
+    margin-left: 95vh;
+    color: white;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 100;
+}
+.scroll-content{
+    margin-left: -100vh;
+    color: white;
+    margin-top: 55vh;
+    float: left;
+    font-family: 'Roboto';
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.AboutDlc-Intro-container{
+color: black;
+background-color: white;
+font-size: 30px;
+font-family: system-ui;
+font-weight: 100;
+display: flex;
+justify-content: center;
+margin-top: 100vh;
+}
+
+.AboutDlc-intro-lines{
+display: block;
+text-align: center;
+position: relative;
+opacity: 1;
+line-height: 1.5;
+}
+
+.AboutDlc-Intro-container{
+    margin-bottom:20vh;
+    margin-top: 100vh;
+}
+.AboutDlc-intro-text{
+    margin-block-start: 8em;
+    margin-block-end: 8em;
+
+}
+.our-mission-inner-content{
+    
+    justify-content: space-between;
+}
+
+.AboutDlc-intro-text{
+    margin-block-end: 10em;
+}
+
+.our-mission-inner-content{
+    float: left;
+    justify-content: center;
+    margin-left: 8vh;
+    float: left;
+    justify-content: center;
+    margin-left: 8vh;
+    line-height: 2;
+    color: #777;
+    margin-right: 2vh;
+    
+}
+body{
+    background-color: white !important;
+}
+.our-mission-img{
+    width: 45%;
+    height: 100%;
+    float: right;
+    margin-top: -10vh;
+}
+.our-mission-inner-container{
+    justify-content: center;
+    display: block;
+    margin-left: 20vh;
+    margin-right: 30vh;
+}
+h3{
+    margin-left: 8vh;
+    font-size: 8vh;
+    font-weight: 100;
+    opacity: 0.6;
+    font-family: 'Font Awesome 5 Pro';
+    margin-top: 0vh;
+    margin-block-end: 0em;
+}
+.our-mission-text{
+    float: left;
+}
+.landscape-img {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    width: 92%;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    height: 100%;
+}
+.Discovery-diff-title{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    opacity: 0.8;
+    margin-left: 28vh;
+}
+.resturant-img{
+    padding-top: 5vh;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.discovery-design-lines{
+    color:#777;
+    line-height: 2;
+}
+.discovery-design-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.discovery-design-img{
+    width: 40%;
+    float: left;
+    margin-left: 20vh;
+}
+.discovery-design-text{
+    width: 40%;
+    float: right;
+    margin-top: 35vh;
+}
+.discovery-design-section{
+    padding-top: 30vh;
+}
+.room-img{
+    margin-top: 10vh;
+}

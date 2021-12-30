@@ -162,9 +162,7 @@ p{
     font-size: 2.5vh;
     margin-left: 15vh;
 }
-.city-nav:hover{
-    text-decoration: underline;
-}
+
 .globe-section{
     margin: 0;
     background-color: #f3f3f3;
@@ -173,6 +171,7 @@ p{
 }
 .home-section-4{
     background-color: #f3f3f3 !important;
+   
 }
 .globe-top-img{
     z-index: 3;
@@ -215,3 +214,44 @@ p{
     margin-inline-start: -278px;
     margin-inline-end: 0px;
 }
+.section5-img{
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgba(17,17,17,.35);
+    z-index: 2;
+    margin-top: 165vh;
+    margin-right: 0;
+    
+}
+.centered {
+    position: absolute;
+    top: 46%;
+    left: 18%;
+    font-size: 6vh;
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .centered1 {
+    position: absolute;
+    top: 46%;
+    left: 52%;
+    font-size: 6vh;
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .centered2 {
+    position: absolute;
+    top: 46%;
+    left: 82%;
+    font-size: 6vh;
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
