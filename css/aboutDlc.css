@@ -139,3 +139,43 @@ h3{
     margin-bottom: 20vh;
     height: 100%;
 }
+.Discovery-diff-title{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    opacity: 0.8;
+    margin-left: 28vh;
+}
+.resturant-img{
+    padding-top: 5vh;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.discovery-design-lines{
+    color:#777;
+    line-height: 2;
+}
+.discovery-design-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.discovery-design-img{
+    width: 40%;
+    float: left;
+    margin-left: 20vh;
+}
+.discovery-design-text{
+    width: 40%;
+    float: right;
+    margin-top: 35vh;
+}
+.discovery-design-section{
+    padding-top: 30vh;
+}
+.room-img{
+    margin-top: 10vh;
+}
