@@ -179,3 +179,34 @@ h3{
 .room-img{
     margin-top: 10vh;
 }
+.discovery-bulider-section{
+    margin-top: 10vh;
+    margin-left: 30vh;
+    line-height: 2;
+}
+.discovery-bulider-container{
+    display: flex;
+    margin-bottom: 20vh;
+}
+.discovery-bulider-pool-img{
+    float:right;
+    width: 50%;
+    height: 50%;
+}
+.discovery-bulider-text{
+    float: left;
+    width: 45%;
+    height: 45%;
+    margin-top: 10vh;
+}
+.what-we-do-buliders-img{
+    margin-top: 30vh;
+}
+.our-worldsExplore-section{
+    margin: 0 !important;
+    
+}
+.footer-section{
+    margin-top: -2vh;
+    margin-right: 0%;
+}
