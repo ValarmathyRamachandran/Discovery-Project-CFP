@@ -5,6 +5,11 @@
     min-width: 100%;
     min-height: 100%;
 }
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
 .header-section{
     position: absolute;
     top: 0;
@@ -30,9 +35,11 @@ body{
 }
 .experineces-intro-content{
     color: black !important;
-    line-height: 2;
+    line-height: 1.5;
     font-size: 36px;
     font-family:serif;
+    opacity: .8;
+    margin-bottom: 10vh;
 }
 .experiences-intro-section{
     margin-top: 10vh;
@@ -66,4 +73,178 @@ body{
     margin-top: 60vh;
     float: left;
     font-family: 'Roboto';
+}
+.exclusive-to-your-world-lines{
+    line-height: 2;
+}
+
+.exclusive-to-your-world-content{
+    float: left;
+    justify-content: center;
+    margin-left: 30vh;
+    float: left;
+    line-height:3;
+    color: #777;
+    font-size: 28px;
+    width: 40%;
+    margin-top: 120vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+.exclusive-heading {
+    margin-top: 30vh;
+    font-weight: 10;
+    color: black;
+    font-size: 30px;
+    font-family:-webkit-pictograph;
+    line-height: 1;
+    opacity: .6;
+}
+.exclusive-to-your-world-img-section{
+    float:right;
+    width: 50%;
+    height: 100%;
+    margin-top: -100vh;
+}
+.exclusive-heading{
+    margin-top: -80vh;
+}
+.exclusive-to-your-world-img-section{
+    margin-bottom: 15vh;
+}
+.golfSection-img{
+    z-index: 2;
+    position: absolute;
+    top: -20%;
+    left: -25%;
+    right: -20%;
+    bottom: -20%;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+   
+}
+.golf-border{
+    margin-top: 10vh;
+    border: 1px solid #777;
+    padding: 1px;
+    width: 118px;
+    text-align: center;
+    opacity: .7;
+    font-size: 3vh;
+}
+
+
+.golfSection-content{
+    float: right;
+    position: relative  ;
+    background-color: white;
+    width: 34.5rem;
+    padding: 4rem;
+    margin: 20px;
+    z-index: 3;
+    line-height: 2;
+    margin-top: -135vh;
+    height:500px ;
+}
+
+
+.gray-box{
+    
+   background-color: silver;
+    margin-top: 200vh;
+    margin-bottom: 80px;
+    margin-left: 30vh;
+    overflow: visible;
+    padding: 3rem;
+    height: 650px;
+    width: 49rem ;
+    z-index: 1;
+    position: relative;
+}
+
+.Outdoor-pursuits-container{
+    display: flex;
+    position: absolute;
+
+}
+.Outdoor-mountain-img{
+    float: right;
+    margin-left: 30%;
+    z-index: 1;
+    position: absolute;
+    
+}
+
+.Outdoor-content{
+    float: left;
+    position: absolute  ;
+    background-color: white;
+    width: 34.5rem;
+    padding: 4rem;
+    margin: 20px;
+    z-index: 2;
+    line-height: 2;
+    margin-top: 12vh;
+    height:500px ;
+    
+}
+
+.gray-box-2{
+background-color: silver;
+overflow: visible;
+padding: 3rem;
+height: 550px;
+width: 49rem ;
+z-index: 1;
+position: relative;
+}
+.wellness-content{
+    float: right;
+    position: relative;
+    background-color: white;
+    width: 34.5rem;
+    padding: 4rem;
+    margin: -275px;
+    z-index: 3;
+    line-height: 2;
+    margin-top: -20vh;
+}
+.wellness-girl-img{
+    float: left;
+    z-index: 2;
+    position: absolute;
+    top: -20%;
+    left: -25%;
+    right: -20%;
+    bottom: -20%;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.gray-box-3 {
+    background-color: silver;
+    margin-top: 200vh;
+    margin-bottom: 80px;
+    margin-left: 30vh;
+    overflow: visible;
+    padding: 3rem;
+    height: 560px;
+    width: 50rem;
+    z-index: 1;
+    position: relative;
+}
+.our-world-heading{
+    opacity: .9;
+    z-index: 2;
+    margin-left: 100vh;
+    margin-top: -30vh;
+    color: white;
+    font-size: 42px;
+    font-weight: 100;
+    font-family: 'Roboto';
+}
+.footer-content{
+    margin-top: 10vh;
 }
