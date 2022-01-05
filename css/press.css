@@ -61,11 +61,12 @@ html{
 .read-article-box{
     
     border: 1px solid #777;
-    padding: 3px;
+    padding: 6px;
     width: 118px;
     text-align: center;
     opacity: .7;
-    font-size: 3vh;
+    font-size: 3.5vh;
+    color: black;
 }
 .latest-news-container{
     display: flex;
@@ -98,5 +99,16 @@ html{
     align-items: center;
     margin-left: 15vh;
     right: auto
+}
+#news-arrow{
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    opacity: 0.6;
+    margin-left: 100vh;
+    margin-top: 5vh;
+}
+.press-news-events-section{
+    margin-bottom: 5vh;
 }
 
